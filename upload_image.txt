@@ -1,0 +1,22 @@
+Continue your server: Upload image file to your server:
+
+1. Create new GET /upload route returns a simple html with form in it (no react, just plain html form)
+
+2. The form contains 2 inputs: one input for file name and one for file input. And submit button of course.
+3. The form will post the inputs to the same route!
+
+4. Read about getting files in FastAPI and save the image in /assetes directory.
+
+5. Each saint has a new field for her/his image (only the path)
+
+6. The previous routes that display saints in html - update them to show images as well.
+7. When everything is working fine, only after that:
+
+8. Replace the saving to the server with s3! Now when file is being uploaded to the server, you'll save the file in s3, and save the new url in your db!
+
+9. Make sure all routes that show saint details are displaying images correctly!
+
+Remember:
+Issues,
+Branches,
+PRs
